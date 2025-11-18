@@ -1,8 +1,8 @@
 export function scriviQualcosa2(){
     let squadraObj =
         [
-            { nome: "Inter", punti: "0",falli:"0"},
-            { nome: "Juventus", punti: "0",falli:"0" }
+            { nome: "Inter", punti: 0,falli:0},
+            { nome: "Juventus", punti: 0,falli:0 }
         ];
 
     for(let i = 0; i<squadraObj.length;i++)
