@@ -28,7 +28,7 @@ export function scriviQualcosa2(){
                 nomeUguale=true;
             }
         }
-    }while( nomeUguale = false)
+    }while( nomeUguale == false)
     let nomeOutput="";
     let puntiOutput="";
     let falliOutput="";
@@ -47,6 +47,6 @@ export function scriviQualcosa2(){
 
     return `
         <h2>Snack 1 - Bici più leggera</h2>
-        <p>Squadra: <strong>${nomeOutput}</strong>, punti ${puntiOutput}, falli${falliOutput}</p>
+        <p>Squadra: <strong>${nomeOutput}</strong>, punti ${puntiOutput}, falli ${falliOutput}</p>
     `;
 }
