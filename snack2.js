@@ -17,6 +17,9 @@ export function scriviQualcosa2(){
     }
     let scegliSquadra="";
     let nomeUguale = false
+    let nomeOutput="";
+    let puntiOutput="";
+    let falliOutput="";
     do
     {
         
@@ -26,23 +29,13 @@ export function scriviQualcosa2(){
             if(scegliSquadra===squadraObj[i].nome)
             {
                 nomeUguale=true;
-            }
-        }
-    }while( nomeUguale == false)
-    let nomeOutput="";
-    let puntiOutput="";
-    let falliOutput="";
-
-    for(let i=0;i<squadraObj.length;i++)
-    {
-        if(scegliSquadra===squadraObj[i].nome)
-            {
                 nomeOutput=squadraObj[i].nome;
                 puntiOutput=squadraObj[i].punti;
                 falliOutput=squadraObj[i].falli;
                 break;
             }
-    }
+        }
+    }while( nomeUguale == false)
 
 
     return `
